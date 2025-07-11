@@ -5,8 +5,8 @@ import Script from "next/script";
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "Person",
-  name: "Onurhan Demir",
-  jobTitle: "Software Developer",
+  name: "Yigit Gurbulak",
+  jobTitle: "Software Engineer",
   worksFor: {
     "@type": "Organization",
     name: "Insider",
@@ -22,14 +22,7 @@ const structuredData = {
 export default function About() {
   const paragraphs = [
     <>
-      As a Software Developer at{" "}
-      <span className="font-medium decoration-wavy underline decoration-from-font text-emerald-950 decoration-emerald-500 dark:text-emerald-50 dark:decoration-emerald-400 tracking-tight">
-        Insider
-      </span>
-      , I focus on developing comprehensive applications that deliver value
-      across various aspects of software. My expertise bridges the gap between
-      design and functionality, reflecting my passion for creating seamless user
-      experiences.
+
     </>,
     `Driven by a love for software development, I thrive on leveraging user
      feedback to enhance products and optimize workflows. I find particular
@@ -47,7 +40,7 @@ export default function About() {
       text-zinc-800 dark:text-zinc-200 container animate-enter"
     >
       <p className="my-5 text-zinc-800 dark:text-zinc-200">
-        Hi, I&apos;m Onurhan.
+        Hi, I&apos;m Yigit.
       </p>
       {paragraphs.map((paragraph, index) => (
         <div

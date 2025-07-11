@@ -14,17 +14,17 @@ export const metadata: Metadata = {
     process.env.NEXT_PUBLIC_APP_URL || "https://onurhan.dev"
   ),
   title: {
-    default: "Onurhan Demir - Software Developer",
-    template: "%s | Onurhan Demir",
+    default: "Yigit Gurbulak - Software Engineer",
+    template: "%s | Yigit Gurbulak",
   },
   description:
-    "Onurhan Demir - Software Developer at Insider, focused on building comprehensive applications and micro products.",
+    "Yigit Gurbulak - Software Developer at Insider, focused on building comprehensive applications and micro products.",
   openGraph: {
-    title: "Onurhan Demir - Software Developer",
+    title: "Yigit Gurbulak - Software Engineer",
     description:
       "Software Developer at Insider, focused on building comprehensive applications and micro products.",
     url: "https://onurhan.dev",
-    siteName: "Onurhan Demir",
+    siteName: "Yigit Gurbulak",
     locale: "en_US",
     type: "website",
     images: [
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
         url: "https://onurhan.dev/logo.svg",
         width: 1200,
         height: 630,
-        alt: "Onurhan Demir",
+        alt: "Yigit Gurbulak",
       },
     ],
   },
@@ -48,10 +48,10 @@ export const metadata: Metadata = {
     },
   },
   twitter: {
-    title: "Onurhan Demir",
+    title: "Yigit Gurbulak",
     card: "summary_large_image",
-    site: "@onurhan1337",
-    creator: "@onurhan1337",
+    site: "@yall_e",
+    creator: "@yall_e",
   },
   verification: {
     google: "K1pkJ72cY3DylswXke2MHJGxmjJ91WXwgozcCICvFrU",

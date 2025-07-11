@@ -32,12 +32,12 @@ export const Header = () => {
                 height={40}
                 priority={true}
               />
-              <span className="sr-only">Onurhan Demir</span>
+              <span className="sr-only">Yigit Gurbulak</span>
             </Link>
 
             <div className="flex flex-col ml-4">
               <span className="text-medium inline-block font-medium">
-                Onurhan Demir
+                Yigit Gurbulak
               </span>
               <span className="opacity-60">software developer</span>
             </div>

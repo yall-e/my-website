@@ -93,7 +93,7 @@ export default async function BlogDetailPage({ params }: Props) {
             url: `https://onurhan.dev/blog/${blog.slug}`,
             author: {
               "@type": "Person",
-              name: "Onurhan Demir",
+              name: "Yigit Gurbulak",
             },
           }),
         }}
